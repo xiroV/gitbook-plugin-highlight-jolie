@@ -1,7 +1,9 @@
 var path = require('path');
 var hljs = require('highlight.js');
+var hljsJolie = require('highlightjs-jolie');
 
 var MAP = {
+    'jolie': 'jolie',
     'py': 'python',
     'js': 'javascript',
     'json': 'javascript',
@@ -17,6 +19,7 @@ function normalize(lang) {
 }
 
 function highlight(lang, code) {
+    hljs.registerLanguage('jolie', hljsJolie);
     if(!lang) return {
         body: code,
         html: false

@@ -1,22 +1,23 @@
 {
-    "name": "gitbook-plugin-highlight",
-    "description": "Default code highlighter for GitBook",
+    "name": "gitbook-plugin-highlight-jolie",
+    "description": "Default code highlighter for GitBook, with Jolie support",
     "main": "index.js",
     "version": "2.0.3",
     "engines": {
         "gitbook": ">=2.4.0"
     },
-    "homepage": "https://github.com/GitbookIO/plugin-highlight",
+    "homepage": "https://github.com/xiroV/gitbook-plugin-highlight-jolie",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-highlight.git"
+        "url": "https://github.com/xiroV/gitbook-plugin-highlight-jolie.git"
     },
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-highlight/issues"
+        "url": "https://github.com/xiroV/gitbook-plugin-highlight-jolie/issues"
     },
     "dependencies": {
-        "highlight.js": "9.8.0"
+        "highlight.js": "9.8.0",
+        "highlightjs-jolie": "0.1.2"
     },
     "devDependencies": {
         "less": "2.7.1",
