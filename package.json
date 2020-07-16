@@ -17,7 +17,7 @@
     },
     "dependencies": {
         "highlight.js": "9.8.0",
-        "highlightjs-jolie": "0.1.2"
+        "highlightjs-jolie": "0.1.5"
     },
     "devDependencies": {
         "less": "2.7.1",
