@@ -43,7 +43,7 @@ module.exports = {
     book: {
         assets: './css',
         css: [
-            'website.css'
+            'solarized-dark.css'
         ]
     },
     ebook: {
